@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block title %}child title{% endblock %}
+{% block head %}
+    {{ super() }}
+        <style>
+        </style>
+{% endblock %}
+{% block body %}
+    <h1>
+        this is the child of the base html
+    </h1>
+{% endblock %}
